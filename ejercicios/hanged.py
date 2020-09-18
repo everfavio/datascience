@@ -1,3 +1,11 @@
+__author__ = "Ever Favio Argollo Ticona"
+__license__ = "GPL"
+__version__ = "1.0.1"
+__maintainer__ = "Ever Favio Argollo Ticona"
+__email__ = "everfavioat@gmail.com"
+__status__ = "Finished"
+
+
 ### importando librerias
 import os
 import pyfiglet
