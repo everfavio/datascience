@@ -4,7 +4,7 @@ import pyfiglet
 from googletrans import Translator
 
 translator = Translator()
-# declaring arrays
+# declarando arrays de datos
 
 print(pyfiglet.figlet_format("Generador de Frases"))
 articulos = ['the', 'an', 'a', 'those', 'that', 'these', 'this']
