@@ -27,10 +27,12 @@ try:
    for n in range(int(inp)) :
        if random.randint(0,1) == 1 :
            phrase = (f'{n + 1} {random.choice(articulos)} {random.choice(sujeto)} {random.choice(verbos)} {random.choice(infinitivos)}')
+           print(phrase)
            result = (translator.translate((phrase), src='en', dest='es'))
            print(result.text)
        else :
            phrase = (f'{n + 1} {random.choice(sujetos)} {random.choice(verbos)} {random.choice(infinitivos)}')
+           print(phrase)
            result = (translator.translate((phrase), src='en', dest='es'))
            print(result.text)
    pass
